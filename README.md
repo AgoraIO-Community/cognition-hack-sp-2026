@@ -169,7 +169,9 @@ git push
 Projects will be evaluated based on:
 
 ✅ **Project Technical Quality** (33.33%) – Implementation soundness, correct tool usage, functional and bug-free code
-✅ **Project Visual Presentation** (33.33%) – Interface polish, user experience, visual clarity of the demo
+
+✅ **Project Visual Presentation** (33.33%) – Interface polish, user experience, visual clarity of the 
+
 ✅ **Impact and Originality of Idea** (33.34%) – Originality of proposal, potential for real-world impact, solution creativity
 
 ### Judging Panel
