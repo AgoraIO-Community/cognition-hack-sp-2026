@@ -168,9 +168,9 @@ git push
 
 Projects will be evaluated based on:
 
-✅ **Qualidade técnica do projeto** (33.33%) – Solidez da implementação, uso correto das ferramentas, código funcional e livre de bugs
-✅ **Apresentação visual do projeto** (33.33%) – Polimento da interface, experiência do usuário, clareza visual da demo
-✅ **Impacto e originalidade da ideia** (33.34%) – Originalidade da proposta, potencial de impacto real, criatividade da solução
+✅ **Project Technical Quality** (33.33%) – Implementation soundness, correct tool usage, functional and bug-free code
+✅ **Project Visual Presentation** (33.33%) – Interface polish, user experience, visual clarity of the demo
+✅ **Impact and Originality of Idea** (33.34%) – Originality of proposal, potential for real-world impact, solution creativity
 
 ### Judging Panel
 - **Guilherme Duarte de Barros** – Coordenador das Engenharias & TI e Computação, Universidade Anhembi Morumbi
