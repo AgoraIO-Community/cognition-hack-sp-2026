@@ -33,6 +33,8 @@ Go above and beyond for extra credit:
 
 Get up and running quickly with these official repositories:
 
+### Start from here
+> 🛠️ [AGORA_QUICKSTART.md](./AGORA_QUICKSTART.md) for skills, CLI and examples.
 ### Starter Repositories
 
 | Repository | Description |
@@ -60,11 +62,41 @@ Follow the steps below to **fork, develop, and submit** your project.
 
 ### **1. Fork this Repository**
 
-{{submission_guidelines.fork_instructions}}
+To submit your project to the Cognition Hack São Paulo:
 
+1. **Fork this repository** to your own GitHub account.
+2. **Create your team's submission folder** under `submissions/` using your team name (e.g., `submissions/team-awesome/`).
+3. **Add your project files**:
+   - `README.md` — team name, members, project description, tools used (Windsurf/Devin + any optional tracks), setup instructions, and external dependencies.
+   - `src/` — source code.
+   - `demo.mp4` (optional but recommended) — short video demo.
+   - `docs/` — supporting documentation.
+4. **Commit and push** your changes to your fork.
+5. **Open a Pull Request** from your fork to this repository's `main` branch before the submission deadline (**2026-04-25, 15:00 BRT**).
+6. **Declare any optional tracks** your project qualifies for (e.g., Agora ConvoAI, Oracle OCI) directly in your submission README so judges know where to evaluate.
+
+**Only in-person participants whose Pull Requests are opened by 15:00 BRT are eligible for prizes.**
 ### **2. Clone Your Forked Repository**
 
-{{submission_guidelines.clone_instructions}}
+Alternatively, if you just want a local copy of the repository to explore the resources, thought starters, and evaluation rubric:
+
+1. **Clone the repository** directly:
+```bash
+   git clone https://github.com/AgoraIO-Community/cognition-hack-sp-2026.git
+   cd cognition-hack-sp-2026
+```
+2. **Install the Agora toolkit** (optional, recommended for teams using Agora):
+```bash
+   npm install -g agoraio-cli
+   npx skills add https://github.com/agoraio/skills --skill agora
+```
+3. **Review the key documents**:
+   - `README.md` — event overview, judges, rules, prizes.
+   - `AGORA_QUICKSTART.md` — Agora tools for voice/video (Agora track eligibility).
+   - `Thought_Starters.md` — project ideas and inspiration.
+   - `hackathon-rating-rubric.md` — how your submission will be judged.
+
+> **Note:** Cloning gives you read-only access. To submit a project, you still need to **fork** the repository and open a Pull Request (see the Fork Instructions above).
 
 ```bash
 git clone https://github.com/YOUR-GITHUB-USERNAME/cognition-hack-sp-2026.git
@@ -76,7 +108,33 @@ cd cognition-hack-sp-2026
 Inside the `submissions/` directory, create a new folder using your team name.  
 Example:
 
-{{submission_guidelines.team_folder_structure}}
+Each team must organize its submission under a single folder inside `submissions/`, named after the team (lowercase, hyphen-separated, no spaces). Example:
+
+~~~
+submissions/
+└── team-awesome/
+    ├── README.md          # required — team info, project description, setup
+    ├── src/               # required — all source code for your project
+    ├── demo.mp4           # optional but strongly recommended — short video demo
+    └── docs/              # optional — architecture notes, diagrams, screenshots
+~~~
+
+**Folder requirements:**
+
+- **One folder per team.** Do not create multiple folders or submit to the repository root.
+- **Use a unique team name.** If another team has already claimed a folder name, pick a different one.
+- **Keep paths relative.** Your code should run from inside your team folder without depending on the parent repo structure.
+
+**`README.md` inside your team folder must include:**
+
+- Team name and full list of members (name + GitHub handle).
+- Short project description (2–3 paragraphs).
+- Tools used — explicitly state whether you built with **Windsurf**, **Devin**, or both.
+- Optional tracks you are competing in — **Agora ConvoAI**, **Oracle OCI**, or none.
+- Setup and run instructions (dependencies, environment variables, commands).
+- Any known limitations, trade-offs, or future work.
+
+**Do not commit secrets** (API keys, tokens, credentials) — use a `.env.example` file instead and reference it in your README.
 
 ### **4. Work on Your Project**
 
