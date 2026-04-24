@@ -1,6 +1,6 @@
 # Thought Starters
 
-As part of the **Hackathon Cognition São Paulo**, we've put together some thought starters to help you brainstorm and develop your project ideas. Each concept presents a unique challenge and an opportunity to push the boundaries of conversational AI technology.
+Ideias iniciais para ajudar sua equipe a sair do branco e transformar o tempo curto do hackathon em uma demo funcional. Todas as sugestões abaixo já assumem o uso de **Agora ConvoAI + Agora RTC**, que são obrigatórios para os projetos elegíveis.
 
 ---
 

@@ -1,198 +1,177 @@
 # Hackathon Cognition São Paulo [2026-04-25]
 
-Competição intensa de desenvolvimento com imersão prática em ferramentas de IA para código (Windsurf e Devin), organizada pela Cognition em São Paulo. Engenheiros de software e times de produto competem construindo projetos com agentes de IA autônomos em 4 horas. Agora é sponsor oficial com trilha dedicada a soluções com ConvoAI.
+Competição intensa de desenvolvimento com imersão prática em ferramentas de IA para código, organizada pela Cognition em São Paulo. Engenheiros de software e times de produto competem construindo projetos com agentes de IA autônomos em 4 horas. A Agora é sponsor oficial e todos os projetos elegíveis devem demonstrar **Agora Conversational AI** e **Agora RTC** em funcionamento.
 
+> **English summary:** Build a project in 4 hours using **Agora Conversational AI + Agora RTC**. Submit through a Pull Request by **2026-04-25, 15:00 BRT**. Start with [`AGORA_QUICKSTART.md`](./AGORA_QUICKSTART.md) for the fastest path.
 
+## 🎯 Tema
 
-## 🎯 **Theme**
-
-This hackathon is open-ended! We encourage you to explore any area that interests you, as long as it incorporates Agora's real-time communication technologies in an innovative way.
-
-
----
-
-## 🔧 **Project Requirements & Constraints**
-
-### Required Technologies
-All submissions **must** integrate the following:
-
-| Technology | Description | Documentation |
-|------------|-------------|---------------|
-
-
-### Rules
-
-
-### Bonus Point Opportunities
-Go above and beyond for extra credit:
-
+O hackathon é aberto em tema, desde que o projeto entregue uma experiência convincente com IA conversacional em tempo real. O objetivo não é apenas usar APIs isoladas, mas mostrar uma solução funcional em que a experiência de voz, a interação em tempo real e a proposta do produto façam sentido juntos.
 
 ---
 
-## 📚 **Resources & Starter Code**
+## 🔧 Requisitos e regras
 
-Get up and running quickly with these official repositories:
+### Tecnologias obrigatórias
 
-### Start from here
-> 🛠️ [AGORA_QUICKSTART.md](./AGORA_QUICKSTART.md) for skills, CLI and examples.
-### Starter Repositories
+Todos os projetos submetidos devem integrar as tecnologias abaixo:
 
-| Repository | Description |
-|------------|-------------|
-| [**Agora agent-ui-kit (React components para ConvoAI)**](https://github.com/AgoraIO/agent-ui-kit) | {{repo.description}} |
-| [**Agora Python ConvoAI SDK**](https://github.com/AgoraIO/agora-realtime-ai-api) | {{repo.description}} |
+| Tecnologia                            | O que significa na prática                                                                                                                           | Documentação                                                                                 |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Agora Conversational AI (ConvoAI)** | O projeto precisa incluir um agent ou fluxo conversacional com IA usando a stack de Conversational AI da Agora.                                      | [Docs](https://docs.agora.io/en/conversational-ai/overview/product-overview)                 |
+| **Agora RTC**                         | A experiência deve usar a camada de comunicação em tempo real da Agora para áudio, voz, streaming ou outra interação síncrona relevante para a demo. | [RTC Web SDK Quickstart](https://docs.agora.io/en/video-calling/get-started/get-started-sdk) |
 
+### Acesso ao Discord do evento
 
-### Documentation
+- Entre pelo convite oficial: [https://discord.gg/QwFFZ7BW](https://discord.gg/QwFFZ7BW)
+- Esse convite concede a role **São Paulo Hackathon**, necessária para visualizar os canais da Agora.
+- **Mesmo quem já está no Discord deve usar esse link e aceitar o convite** para garantir acesso ao canal do evento.
+
+### Regras
+
+- Submeta o projeto em uma pasta própria dentro de `submissions/`.
+- Inclua código-fonte, instruções de setup e uma descrição clara do projeto no `README.md` da equipe.
+- A demo deve mostrar **ConvoAI + RTC** de forma funcional, mesmo que o escopo seja pequeno.
+- Não comite segredos. Use `.env.example` quando necessário.
+- O Pull Request precisa ser aberto até **2026-04-25, 15:00 BRT**.
+- Informe no `README.md` da equipe se o projeto foi construído com **Windsurf**, **Devin** ou ambos.
+
+### Oportunidades de bônus
+
+Vocês podem ganhar crédito extra se forem além do requisito mínimo:
+
+- Uso relevante de recursos adicionais da Agora além de ConvoAI + RTC.
+- Integração bem executada com trilhas parceiras, como **Oracle OCI**, quando fizer sentido para o produto.
+- Demo especialmente clara, polida e memorável.
+
+---
+
+## 📚 Recursos e starter code
+
+### Comece por aqui
+
+> 🛠️ Leia primeiro [`AGORA_QUICKSTART.md`](./AGORA_QUICKSTART.md) para seguir o caminho mais rápido com samples, quickstarts, CLI, Agent Skills e Agora MCP.
+
+### Repositórios oficiais
+
+| Repositório                                                                                         | Quando usar                                                                                                                  |
+| --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| [**Agent Samples**](https://github.com/AgoraIO-Conversational-AI/agent-samples)                     | Coleção de exemplos prontos de voice agents, incluindo um prompt base para experiências com avatar e demos mais memoráveis.  |
+| [**agent-quickstart-python**](https://github.com/AgoraIO-Community/agent-quickstart-python)         | Quickstart full-stack com backend em FastAPI e cliente web, bom para times que querem começar rápido com Python no servidor. |
+| [**agent-quickstart-nextjs**](https://github.com/AgoraIO-Conversational-AI/agent-quickstart-nextjs) | Quickstart oficial em Next.js para uma experiência de voz no browser com setup enxuto e defaults gerenciados pela Agora.     |
+| [**Agora AI UI Kit**](https://github.com/AgoraIO-Community/agora-ai-uikit)                          | Biblioteca de componentes React para acelerar interfaces de voz, agents e experiências em tempo real.                        |
+| [**Agora Realtime AI API**](https://github.com/AgoraIO/agora-realtime-ai-api)                       | Implementação e referência para integrações server-side com os recursos de IA em tempo real da Agora.                        |
+
+### Documentação e ferramentas
+
 - [Agora Conversational AI (ConvoAI)](https://docs.agora.io/en/conversational-ai/overview/product-overview)
 - [Agora RTC Web SDK Quickstart](https://docs.agora.io/en/video-calling/get-started/get-started-sdk)
-- [Agora Console (trial signup)](https://console.agora.io)
+- [Agora MCP](https://docs.agora.io/en/conversational-ai/get-started/mcp) — use `https://mcp.agora.io` para levar a documentação da Agora para dentro do seu assistant/IDE.
+- [Agora Console](https://console.agora.io)
+- [Agora CLI (`agoraio-cli`)](https://www.npmjs.com/package/agoraio-cli)
+- [Agora Skills Catalog](https://skills.sh/agoraio/skills/agora)
 - [Windsurf (Cognition)](https://windsurf.com)
 - [Devin (Cognition)](https://devin.ai)
 - [Oracle Cloud Infrastructure](https://cloud.oracle.com)
 
-
 ---
 
-Follow the steps below to **fork, develop, and submit** your project.
+## 📌 Como submeter
 
----
+### 1. Faça um fork deste repositório
 
-## 📌 **Submission Guidelines**
+Para submeter seu projeto no Cognition Hack São Paulo:
 
-### **1. Fork this Repository**
+1. Faça um **fork** deste repositório para a sua conta do GitHub.
+2. Crie a pasta da sua equipe dentro de `submissions/`, usando um nome curto em lowercase e com hífens.
+3. Adicione os arquivos do projeto:
+   - `README.md` — nome do time, membros, descrição do projeto, ferramentas usadas, setup, dependências e limitações.
+   - `src/` — código-fonte do projeto.
+   - `demo.mp4` ou screenshots em `docs/` — recomendado.
+   - `.env.example` — quando o projeto depender de variáveis de ambiente.
+4. Commit e push para o seu fork.
+5. Abra um Pull Request para a branch `main` deste repositório até **2026-04-25, 15:00 BRT**.
 
-To submit your project to the Cognition Hack São Paulo:
+**Somente participantes presenciais com Pull Request aberto até 15:00 BRT estarão elegíveis para premiação.**
 
-1. **Fork this repository** to your own GitHub account.
-2. **Create your team's submission folder** under `submissions/` using your team name (e.g., `submissions/team-awesome/`).
-3. **Add your project files**:
-   - `README.md` — team name, members, project description, tools used (Windsurf/Devin + any optional tracks), setup instructions, and external dependencies.
-   - `src/` — source code.
-   - `demo.mp4` (optional but recommended) — short video demo.
-   - `docs/` — supporting documentation.
-4. **Commit and push** your changes to your fork.
-5. **Open a Pull Request** from your fork to this repository's `main` branch before the submission deadline (**2026-04-25, 15:00 BRT**).
-6. **Declare any optional tracks** your project qualifies for (e.g., Agora ConvoAI, Oracle OCI) directly in your submission README so judges know where to evaluate.
-
-**Only in-person participants whose Pull Requests are opened by 15:00 BRT are eligible for prizes.**
-### **2. Clone Your Forked Repository**
-
-Alternatively, if you just want a local copy of the repository to explore the resources, thought starters, and evaluation rubric:
-
-1. **Clone the repository** directly:
-```bash
-   git clone https://github.com/AgoraIO-Community/cognition-hack-sp-2026.git
-   cd cognition-hack-sp-2026
-```
-2. **Install the Agora toolkit** (optional, recommended for teams using Agora):
-```bash
-   npm install -g agoraio-cli
-   npx skills add https://github.com/agoraio/skills --skill agora
-```
-3. **Review the key documents**:
-   - `README.md` — event overview, judges, rules, prizes.
-   - `AGORA_QUICKSTART.md` — Agora tools for voice/video (Agora track eligibility).
-   - `Thought_Starters.md` — project ideas and inspiration.
-   - `hackathon-rating-rubric.md` — how your submission will be judged.
-
-> **Note:** Cloning gives you read-only access. To submit a project, you still need to **fork** the repository and open a Pull Request (see the Fork Instructions above).
+### 2. Clone seu fork
 
 ```bash
 git clone https://github.com/YOUR-GITHUB-USERNAME/cognition-hack-sp-2026.git
 cd cognition-hack-sp-2026
 ```
 
-### **3. Create Your Team Folder**
-
-Inside the `submissions/` directory, create a new folder using your team name.  
-Example:
-
-Each team must organize its submission under a single folder inside `submissions/`, named after the team (lowercase, hyphen-separated, no spaces). Example:
-
-~~~
-submissions/
-└── team-awesome/
-    ├── README.md          # required — team info, project description, setup
-    ├── src/               # required — all source code for your project
-    ├── demo.mp4           # optional but strongly recommended — short video demo
-    └── docs/              # optional — architecture notes, diagrams, screenshots
-~~~
-
-**Folder requirements:**
-
-- **One folder per team.** Do not create multiple folders or submit to the repository root.
-- **Use a unique team name.** If another team has already claimed a folder name, pick a different one.
-- **Keep paths relative.** Your code should run from inside your team folder without depending on the parent repo structure.
-
-**`README.md` inside your team folder must include:**
-
-- Team name and full list of members (name + GitHub handle).
-- Short project description (2–3 paragraphs).
-- Tools used — explicitly state whether you built with **Windsurf**, **Devin**, or both.
-- Optional tracks you are competing in — **Agora ConvoAI**, **Oracle OCI**, or none.
-- Setup and run instructions (dependencies, environment variables, commands).
-- Any known limitations, trade-offs, or future work.
-
-**Do not commit secrets** (API keys, tokens, credentials) — use a `.env.example` file instead and reference it in your README.
-
-### **4. Work on Your Project**
-
-- Develop your project inside your team folder.
-- Include a `README.md` file explaining your project, its setup, and usage. Include any special instructions to run it.
-- Include a short demo video or screenshots in the `docs/` folder.
-
-### **5. Commit and Push Changes**
+Se você só quiser explorar os materiais antes de começar a submeter, também pode clonar o repositório principal:
 
 ```bash
-git add .
-git commit -m "Submission commit - Team [Your Team Name]"
-git push
+git clone https://github.com/AgoraIO-Community/cognition-hack-sp-2026.git
+cd cognition-hack-sp-2026
 ```
 
-### **6. Submit via Pull Request**
+### 3. Estruture a pasta do time
 
-1. Go to your forked repo on GitHub.
-2. Click the **"New Pull Request"** button.
-3. Set the base repository to `AgoraIO-Community/cognition-hack-sp-2026` and compare it with your forked branch.
-4. In the PR description, include:
-   - Team Name
-   - Project Name
-   - A brief summary of the project
-   - Any special instructions of features to focus on or to avoid because they may not be finished. (If applicable)
-5. Click **"Create Pull Request"** to submit your project.
+Cada equipe deve organizar sua entrega dentro de uma única pasta em `submissions/`. Exemplo:
 
----
+```text
+submissions/
+└── team-awesome/
+    ├── README.md
+    ├── src/
+    ├── demo.mp4
+    └── docs/
+```
 
-## 🏆 **Judging Criteria**
+O `README.md` da equipe deve incluir:
 
-Projects will be evaluated based on:
+- Nome do time e integrantes.
+- Descrição curta do projeto.
+- Ferramentas usadas: **Windsurf**, **Devin** ou ambos.
+- Instruções de setup e execução.
+- Dependências externas e variáveis de ambiente.
+- Limitações, trade-offs ou próximos passos.
 
-✅ **Project Technical Quality** (33.33%) – Implementation soundness, correct tool usage, functional and bug-free code
+### 4. Envie o Pull Request
 
-✅ **Project Visual Presentation** (33.33%) – Interface polish, user experience, visual clarity of the 
+No PR, inclua pelo menos:
 
-✅ **Impact and Originality of Idea** (33.34%) – Originality of proposal, potential for real-world impact, solution creativity
-
-### Judging Panel
-- **Guilherme Duarte de Barros** – Coordenador das Engenharias & TI e Computação, Universidade Anhembi Morumbi
-- **Filipe Cezar dos Santos** – Community Manager, Oracle
-- **Matheus Pagani** – Founder e CEO, Venture Miner
-- **Edquel B. Prado Farias** – Professor, Universidade Anhembi Morumbi
-- **Vera Forbeck** – Professora, Universidade Anhembi Morumbi
-- **Gustavo Sant'ana** – Artificial Intelligence Engineer, Oracle
-- **Yannick (Yan) Belot** – Head of Sales and Partnerships, Agora
-- **Luiz Real** – Lead Software Engineer, Fundunesp
-
-
-📋 See the full [Judging Rubric](./hackathon-rating-rubric.md) for detailed scoring criteria and evaluation process.
+- Nome do time
+- Nome do projeto
+- Resumo curto do que foi construído
+- Instruções para rodar ou avaliar a demo
+- Observações importantes para a banca, se houver
 
 ---
 
-## ❓ **Need Help?**
+## 🏆 Critérios de avaliação
 
-For any questions, reach out to [**{{contact.name}}**](mailto:{{contact.email}}) or join our {{contact.communication.platform}} channel: {{contact.communication.channel}}.
+Os projetos serão avaliados com os seguintes pesos:
 
+- **Qualidade técnica do projeto** (33,33%) — solidez da implementação, uso correto das ferramentas, código funcional e livre de bugs.
+- **Apresentação visual do projeto** (33,33%) — polimento da interface, experiência do usuário e clareza visual da demo.
+- **Impacto e originalidade da ideia** (33,34%) — criatividade, relevância do problema e potencial de impacto real.
 
+Veja a rubrica completa em [`hackathon-rating-rubric.md`](./hackathon-rating-rubric.md).
 
-**Happy hacking and good luck!** 🚀
+### Banca avaliadora
+
+- **Guilherme Duarte de Barros** — Coordenador das Engenharias & TI e Computação, Universidade Anhembi Morumbi
+- **Filipe Cezar dos Santos** — Community Manager, Oracle
+- **Matheus Pagani** — Founder e CEO, Venture Miner
+- **Edquel B. Prado Farias** — Professor, Universidade Anhembi Morumbi
+- **Vera Forbeck** — Professora, Universidade Anhembi Morumbi
+- **Gustavo Sant'ana** — Artificial Intelligence Engineer, Oracle
+- **Yannick (Yan) Belot** — Head of Sales and Partnerships, Agora
+- **Luiz Real** — Lead Software Engineer, Fundunesp
+
+---
+
+## ❓ Precisa de ajuda?
+
+Contato principal da Agora durante o evento:
+
+- **Yan Belot** — [yannick.belot@agora.io](mailto:yannick.belot@agora.io)
+- **Discord do evento:** [https://discord.gg/QwFFZ7BW](https://discord.gg/QwFFZ7BW)
+
+Ao entrar no Discord, você recebe a role **São Paulo Hackathon**. Só depois disso os canais da Agora para participantes ficam visíveis.
+
+Boa sorte e bom hack.
