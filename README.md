@@ -1,75 +1,138 @@
-# Agora Hackathon Template
+# Hackathon Cognition São Paulo [2026-04-25]
 
-This repository serves as a template for creating new Agora hackathon repositories. It provides a streamlined way to set up hackathon documentation with consistent formatting and structure. It includes a setup script to automatically generate the README.md, hackathon-rating-rubric.md, and Thought_Starters.md files.
+Competição intensa de desenvolvimento com imersão prática em ferramentas de IA para código (Windsurf e Devin), organizada pela Cognition em São Paulo. Engenheiros de software e times de produto competem construindo projetos com agentes de IA autônomos em 4 horas. Agora é sponsor oficial com trilha dedicada a soluções com ConvoAI.
 
-## Quick Start
 
-1. **Create a new repository** using this template (click the "Use this template" button on GitHub)  
-   ![How to create a new repository from this template](./.github/images/create_from_template_small.gif)
-2. **Update the configuration** in `hackathon_config.yaml` with your event details
-3. **Run the generator**:
-   ```bash
-   npm install
-   npm run setup
-   ```
-4. **Review and commit** the customized files
 
-That's it! The setup script will automatically generate all necessary documentation files and clean up after itself.
+## 🎯 **Theme**
 
-## What Gets Generated
+This hackathon is open-ended! We encourage you to explore any area that interests you, as long as it incorporates Agora's real-time communication technologies in an innovative way.
 
-The generator will create three main files:
 
-1. `README.md` - Main hackathon documentation
-2. `hackathon-rating-rubric.md` - Judging criteria and scoring
-3. `Thought_Starters.md` - Project ideas and inspiration
-4. `evaluation_template.md` - Evaluation template based on the judging criteria
+---
 
-## Configuration
+## 🔧 **Project Requirements & Constraints**
 
-The `hackathon_config.yaml` file contains all the customizable elements:
+### Required Technologies
+All submissions **must** integrate the following:
 
-### Core Settings
-- **`event`**: Event details (name, date, description)
-- **`theme`**: Hackathon theme and focus areas
-  - `type`: Either `'specific'` or `'open'`
-  - `title`: Theme title (for specific themes)
-  - `description`: Theme description
-  - `focus_areas`: List of specific areas to focus on
-  - `technologies`: List of recommended technologies
-- **`contact`**: Contact information and communication channels
-- **`submission_guidelines`**: Fork, clone, and submission instructions
+| Technology | Description | Documentation |
+|------------|-------------|---------------|
 
-### Judging & Evaluation
-- **`judges`**: Panel of judges with names, titles, organizations, and expertise areas
-- **`judging_criteria`**: Scoring categories with weights (must total 100%)
-- **`evaluation_process`**: Multi-phase evaluation workflow
-  - `overview`: High-level description of the process
-  - `phases`: List of evaluation phases (review, demos, deliberation, announcement)
-  - `scoring_methodology`: How scores are calculated (1-5 scale)
 
-### Project Requirements
-- **`project_constraints`**: Technical requirements and rules
-  - `required_technologies`: Must-use technologies with docs links
-  - `rules`: Project rules and guidelines
-  - `bonus_criteria`: Ways to earn bonus points
+### Rules
 
-### Resources
-- **`resources`**: Starter code and documentation
-  - `starter_repos`: GitHub repos with descriptions
-  - `documentation`: Official docs and console links
 
-### Ideas
-- **`thought_starters`**: Project ideas and inspiration
+### Bonus Point Opportunities
+Go above and beyond for extra credit:
 
-## After Generation
 
-After running the generator:
+---
 
-1. Review the generated files
-2. Make any necessary manual adjustments
-3. Commit the changes to your repository
+## 📚 **Resources & Starter Code**
 
-## Support
+Get up and running quickly with these official repositories:
 
-For questions or issues, please contact the Agora Developer Relations team.
+### Starter Repositories
+
+| Repository | Description |
+|------------|-------------|
+| [**Agora agent-ui-kit (React components para ConvoAI)**](https://github.com/AgoraIO/agent-ui-kit) | {{repo.description}} |
+| [**Agora Python ConvoAI SDK**](https://github.com/AgoraIO/agora-realtime-ai-api) | {{repo.description}} |
+
+
+### Documentation
+- [Agora Conversational AI (ConvoAI)](https://docs.agora.io/en/conversational-ai/overview/product-overview)
+- [Agora RTC Web SDK Quickstart](https://docs.agora.io/en/video-calling/get-started/get-started-sdk)
+- [Agora Console (trial signup)](https://console.agora.io)
+- [Windsurf (Cognition)](https://windsurf.com)
+- [Devin (Cognition)](https://devin.ai)
+- [Oracle Cloud Infrastructure](https://cloud.oracle.com)
+
+
+---
+
+Follow the steps below to **fork, develop, and submit** your project.
+
+---
+
+## 📌 **Submission Guidelines**
+
+### **1. Fork this Repository**
+
+{{submission_guidelines.fork_instructions}}
+
+### **2. Clone Your Forked Repository**
+
+{{submission_guidelines.clone_instructions}}
+
+```bash
+git clone https://github.com/YOUR-GITHUB-USERNAME/cognition-hack-sp-2026.git
+cd cognition-hack-sp-2026
+```
+
+### **3. Create Your Team Folder**
+
+Inside the `submissions/` directory, create a new folder using your team name.  
+Example:
+
+{{submission_guidelines.team_folder_structure}}
+
+### **4. Work on Your Project**
+
+- Develop your project inside your team folder.
+- Include a `README.md` file explaining your project, its setup, and usage. Include any special instructions to run it.
+- Include a short demo video or screenshots in the `docs/` folder.
+
+### **5. Commit and Push Changes**
+
+```bash
+git add .
+git commit -m "Submission commit - Team [Your Team Name]"
+git push
+```
+
+### **6. Submit via Pull Request**
+
+1. Go to your forked repo on GitHub.
+2. Click the **"New Pull Request"** button.
+3. Set the base repository to `AgoraIO-Community/cognition-hack-sp-2026` and compare it with your forked branch.
+4. In the PR description, include:
+   - Team Name
+   - Project Name
+   - A brief summary of the project
+   - Any special instructions of features to focus on or to avoid because they may not be finished. (If applicable)
+5. Click **"Create Pull Request"** to submit your project.
+
+---
+
+## 🏆 **Judging Criteria**
+
+Projects will be evaluated based on:
+
+✅ **Qualidade técnica do projeto** (33.33%) – Solidez da implementação, uso correto das ferramentas, código funcional e livre de bugs
+✅ **Apresentação visual do projeto** (33.33%) – Polimento da interface, experiência do usuário, clareza visual da demo
+✅ **Impacto e originalidade da ideia** (33.34%) – Originalidade da proposta, potencial de impacto real, criatividade da solução
+
+### Judging Panel
+- **Guilherme Duarte de Barros** – Coordenador das Engenharias & TI e Computação, Universidade Anhembi Morumbi
+- **Filipe Cezar dos Santos** – Community Manager, Oracle
+- **Matheus Pagani** – Founder e CEO, Venture Miner
+- **Edquel B. Prado Farias** – Professor, Universidade Anhembi Morumbi
+- **Vera Forbeck** – Professora, Universidade Anhembi Morumbi
+- **Gustavo Sant'ana** – Artificial Intelligence Engineer, Oracle
+- **Yannick (Yan) Belot** – Head of Sales and Partnerships, Agora
+- **Luiz Real** – Lead Software Engineer, Fundunesp
+
+
+📋 See the full [Judging Rubric](./hackathon-rating-rubric.md) for detailed scoring criteria and evaluation process.
+
+---
+
+## ❓ **Need Help?**
+
+For any questions, reach out to [**{{contact.name}}**](mailto:{{contact.email}}) or join our {{contact.communication.platform}} channel: {{contact.communication.channel}}.
+
+
+
+**Happy hacking and good luck!** 🚀
