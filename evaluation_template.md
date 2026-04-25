@@ -1,98 +1,104 @@
-# Hackathon Cognition São Paulo - Evaluation
+# Hackathon Cognition São Paulo - Ficha de avaliação
 
-## Project Overview
+## Visão geral do projeto
 
-[Provide a brief description of the project being evaluated, including its main features and objectives]
+[Descreva brevemente o projeto avaliado, seu objetivo principal e o que foi demonstrado na demo.]
 
-## Scoring Sheet
+## Resumo de pontuação
 
-| Name | Qualidade técnica do projeto (33.33%) | Apresentação visual do projeto (33.33%) | Impacto e originalidade da ideia (33.34%) | Bonus Point | Total Score | Notes |
-|------|---|---|---|---|---|---|
-| [Project Name] |  PTS \* (.0.33) |  PTS \* (.0.33) |  PTS \* (.0.33) | +Bonus_PTS | \_\_ | [Brief overall assessment] |
+| Projeto | Qualidade técnica (nota x 0,3333) | Apresentação visual (nota x 0,3333) | Impacto e originalidade (nota x 0,3334) | Bônus | Nota final | Observações |
+|---------|-----------------------------------|--------------------------------------|------------------------------------------|-------|------------|-------------|
+| [Nome do projeto] | __ x 0,3333 | __ x 0,3333 | __ x 0,3334 | +__ | __ / 6,00 | [Resumo curto da avaliação] |
 
-## Scoring Details
+## Detalhamento da avaliação
 
 ### 1. Qualidade técnica do projeto
 
-**Score: \_\_**
+**Nota: \_\_**
 
-Solidez da implementação, uso correto das ferramentas, código funcional e livre de bugs
+Solidez da implementação, uso correto das ferramentas, código funcional e livre de bugs.
 
-**Evaluation Notes:**
-[Provide detailed feedback on this criterion]
+**Notas da avaliação:**  
+[Registre aqui os principais pontos técnicos observados.]
 
-**Strengths:**
+**Pontos fortes**
 
-- **Areas for Improvement:**
+- 
 
--
+**Pontos de melhoria**
+
+- 
 
 ### 2. Apresentação visual do projeto
 
-**Score: \_\_**
+**Nota: \_\_**
 
-Polimento da interface, experiência do usuário, clareza visual da demo
+Polimento da interface, experiência do usuário e clareza visual da demo.
 
-**Evaluation Notes:**
-[Provide detailed feedback on this criterion]
+**Notas da avaliação:**  
+[Registre aqui os principais pontos sobre UX, clareza e apresentação.]
 
-**Strengths:**
+**Pontos fortes**
 
-- **Areas for Improvement:**
+- 
 
--
+**Pontos de melhoria**
+
+- 
 
 ### 3. Impacto e originalidade da ideia
 
-**Score: \_\_**
+**Nota: \_\_**
 
-Originalidade da proposta, potencial de impacto real, criatividade da solução
+Originalidade da proposta, potencial de impacto real e criatividade da solução.
 
-**Evaluation Notes:**
-[Provide detailed feedback on this criterion]
+**Notas da avaliação:**  
+[Registre aqui os principais pontos sobre relevância e diferenciação.]
 
-**Strengths:**
+**Pontos fortes**
 
-- **Areas for Improvement:**
+- 
 
--
+**Pontos de melhoria**
 
+- 
 
+## Bônus
 
-## Bonus Point
+**Nota de bônus: +\_\_**
 
-**Score: +\_\_**
+[Use esta seção para registrar bônus por uso adicional de tecnologias da Agora, integração especialmente bem executada com trilhas parceiras ou uma demo excepcional.]
 
-[Evaluate any bonus criteria such as use of additional Agora products, exceptional innovation, etc.]
+**Observações**
 
-**Notes:**
+- 
 
-## Total Score
+## Nota final
 
-**Final Score: \_\_/5**
+**Nota final: \_\_ / 6,00**
 
-## Overall Feedback
+## Feedback geral
 
-[Provide comprehensive feedback on the submission]
+[Resumo geral da avaliação do projeto.]
 
-### Strengths
+### Pontos fortes
 
--
--
--
+- 
+- 
+- 
 
-### Areas for Improvement
+### Pontos de melhoria
 
--
--
--
+- 
+- 
+- 
 
-### Recommendations
+### Recomendações
 
--
--
--
+- 
+- 
+- 
 
-### Judge Comments
+### Comentários do jurado
 
-[Additional comments from the judge]
+[Comentários adicionais.]
