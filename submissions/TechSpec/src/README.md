@@ -57,6 +57,7 @@ A aplicação estará disponível em:
 
 ```
 http://localhost:3000
+https://144-22-150-17.nip.io
 ```
 
 ---
